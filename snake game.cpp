@@ -127,8 +127,10 @@ void input()
                 ch = _getch();
                 if(ch == 'p' || ch == 'P')
                     break;
-                if(ch == '0' || ch == 'O')
+                if(ch == '0' || ch == 'O') {
                     gameOver = true;
+                    break;
+                }
             }while(1);
             break;
         }
